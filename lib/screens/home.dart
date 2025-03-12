@@ -1,6 +1,6 @@
 import 'package:currency_converter/components/anyToAny.dart';
 import 'package:currency_converter/components/usdToAny.dart';
-import 'package:currency_converter/functions/fetchrates.dart';
+import 'package:currency_converter/functions/4%20functions.dart';
 import 'package:currency_converter/models/ratesmodel.dart';
 import 'package:flutter/material.dart';
 

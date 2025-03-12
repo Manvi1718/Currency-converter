@@ -1,5 +1,5 @@
 // ignore: file_names
-import 'package:currency_converter/functions/fetchrates.dart';
+import 'package:currency_converter/functions/4%20functions.dart';
 import 'package:flutter/material.dart';
 
 class UsdToAny extends StatefulWidget {
@@ -61,8 +61,8 @@ class _UsdToAnyState extends State<UsdToAny> {
                           });
                         },
                         items: widget.currencies.keys
-                            .toSet()
-                            .toList()
+                            .toSet() // remove duplicates
+                            .toList() // make list
                             .map<DropdownMenuItem<String>>((value) {
                           return DropdownMenuItem<String>(
                             value: value,

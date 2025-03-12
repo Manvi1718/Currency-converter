@@ -1,5 +1,5 @@
 // ignore: file_names
-import 'package:currency_converter/functions/fetchrates.dart';
+import 'package:currency_converter/functions/4%20functions.dart';
 import 'package:flutter/material.dart';
 
 class AnyToAny extends StatefulWidget {
@@ -109,7 +109,7 @@ class _AnyToAnyState extends State<AnyToAny> {
               onPressed: () {
                 setState(() {
                   answer =
-                      '${amountController.text} $dropdownValue1 ${convertany(widget.rates, amountController.text, dropdownValue1, dropdownValue2)} $dropdownValue2';
+                      '${amountController.text} $dropdownValue1 = ${convertany(widget.rates, amountController.text, dropdownValue1, dropdownValue2)} $dropdownValue2';
                 });
               },
               style: ButtonStyle(
